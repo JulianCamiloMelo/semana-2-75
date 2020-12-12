@@ -39,6 +39,3 @@ export default {
   props: ["member"],
 };
 </script>
-
-<style scoped>
-</style>
