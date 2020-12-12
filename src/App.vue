@@ -3,22 +3,8 @@
     <!-- Llamar banner -->
     <top-banner></top-banner>
 
-    <!-- Llamar Services -->
-    <section id="services" class="servicios">
-      <div class="container-fluid">
-        <section-services></section-services>
-      </div>  
-    </section>
-
-    <!-- Llamar Services -->
-    <section id="news" class="noticias">
-      <div class="container-fluid">
-        <section-news></section-news>
-      </div>  
-    </section>
-
     <!-- Llamar api -->
-    <section id="news" class="noticias">
+    <section id="api" class="api">
       <div class="container-fluid">
         <section-api></section-api>
       </div>
@@ -44,8 +30,6 @@ import TeamCard from "./components/TeamCard.vue";
 import PageFooter from "./components/PageFooter.vue";
 import SectionApi from "./components/SectionApi.vue";
 import TopBanner from "./components/TopBanner.vue";
-import SectionServices from "./components/SectionServices.vue";
-import SectionNews from "./components/SectionNews.vue";
 
 export default {
   name: "App",
@@ -54,8 +38,6 @@ export default {
     SectionApi,
     TeamCard,
     PageFooter,
-    SectionServices,
-    SectionNews,
   },
   data() {
     return {

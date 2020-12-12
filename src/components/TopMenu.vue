@@ -19,25 +19,10 @@
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#services">Servicios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#news">Noticias</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#api">API IMDb</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#team">Miembros</a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link disabled"
-            href="#contact"
-            tabindex="-1 "
-            aria-disabled="true "
-            >Contacto</a
-          >
         </li>
       </ul>
     </div>
